@@ -62,10 +62,7 @@
         "laravel": {
             "providers": [
                 "Aidanraskil\\MalaysiaStatesCities\\MalaysiaStatesCitiesServiceProvider"
-            ],
-            "aliases": {
-                "MalaysiaStatesCities": "Aidanraskil\\MalaysiaStatesCities\\Facades\\MalaysiaStatesCities"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",

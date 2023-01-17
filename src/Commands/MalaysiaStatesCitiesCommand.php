@@ -12,7 +12,7 @@ class MalaysiaStatesCitiesCommand extends Command
 
     public function handle(): int
     {
-        $this->comment('All done');
+        $this->comment('Siap bang!');
 
         return self::SUCCESS;
     }
