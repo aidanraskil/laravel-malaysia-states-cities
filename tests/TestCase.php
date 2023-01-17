@@ -2,9 +2,9 @@
 
 namespace Aidanraskil\MalaysiaStatesCities\Tests;
 
+use Aidanraskil\MalaysiaStatesCities\MalaysiaStatesCitiesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Aidanraskil\MalaysiaStatesCities\MalaysiaStatesCitiesServiceProvider;
 
 class TestCase extends Orchestra
 {

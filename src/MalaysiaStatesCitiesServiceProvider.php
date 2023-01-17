@@ -2,9 +2,9 @@
 
 namespace Aidanraskil\MalaysiaStatesCities;
 
+use Aidanraskil\MalaysiaStatesCities\Commands\MalaysiaStatesCitiesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Aidanraskil\MalaysiaStatesCities\Commands\MalaysiaStatesCitiesCommand;
 
 class MalaysiaStatesCitiesServiceProvider extends PackageServiceProvider
 {
