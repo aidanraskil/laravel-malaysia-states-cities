@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Aidanraskil\MalaysiaStatesCities;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Aidanraskil\MalaysiaStatesCities\Commands\MalaysiaStatesCitiesCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class MalaysiaStatesCitiesServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('malaysiastatescities')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_malaysiastatescities_table')
+            ->hasCommand(MalaysiaStatesCitiesCommand::class);
     }
 }
